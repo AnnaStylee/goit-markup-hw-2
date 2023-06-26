@@ -97,7 +97,7 @@
 
 .hero-title {
   color: var(--white, #fff);
-  background: #2e2f42;
+  background: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 56px;
   font-family: Roboto, sans-serif;
@@ -127,10 +127,11 @@
 /* about */
 
 /* ==================Employers==================== */
-.section-cards {
+
+.section-team {
   background: var(--cloud, #f4f4fd);
 }
-.mark-card {
+.section-team .card {
   background: var(--white, #fff);
 }
 
@@ -150,8 +151,33 @@
 }
 /* ========================PORTFOLIO====================== */
 
-.second-btn {
-  align-items: flex-start;
+.btn-active {
+  color: var(--white, #fff);
+  background: var(--ocean, #404bbf);
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.btn-filter {
+  color: var(--iris, #4d5ae5);
+  background: var(--cloud, #f4f4fd);
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: #ffffff;
   background: var(--ocean, #404bbf);
 }
 
@@ -164,10 +190,4 @@
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-}
-
-.nav:hover,
-.nav:focus {
-  color: #ffffff;
-  background: var(--ocean, #404bbf);
 }
