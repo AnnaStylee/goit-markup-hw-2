@@ -19,7 +19,7 @@
 }
 
 .last-letters {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 /* ========================COMPONENTS===================== */
@@ -43,13 +43,11 @@
 }
 
 .subtitle {
-  color: var(--slate, #434455);
+  color: var(--navyblue, #2e2f42);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
-/* ========================COMPONENTS===================== */
 
 /* ============================HEADER=============== */
 
@@ -92,8 +90,8 @@
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
+  font-style: normal;
 }
-/* ========================HEADER===================== */
 
 /* ========================HERO===================== */
 
@@ -149,7 +147,6 @@
 /* ========================PORTFOLIO====================== */
 
 .second-btn {
-  padding: 12px 24px;
   align-items: flex-start;
   background: var(--ocean, #404bbf);
 }
