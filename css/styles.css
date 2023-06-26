@@ -1,0 +1,178 @@
+:root {
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+}
+
+.body {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto, sans-serif;
+  background: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.last-letters {
+  color: #f4f4fd;
+}
+
+/* ========================COMPONENTS===================== */
+
+.section-description {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.description-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.subtitle {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ========================COMPONENTS===================== */
+
+/* ============================HEADER=============== */
+
+.logo:hover,
+.logo:focus {
+  color: var(--ocean, #404bbf);
+}
+
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.site-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact-number {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  font-style: normal;
+}
+
+.contact-mail:hover {
+  color: #4d5ae5;
+}
+
+.contact-mail {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  font-style: normal;
+}
+/* ========================HEADER===================== */
+
+/* ========================HERO===================== */
+
+.main-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  background: var(--navyblue, #2e2f42);
+}
+
+/* ========================HERO====================== */
+
+.modal-btn {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: var(--iris, #4d5ae5);
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--ocean, #404bbf);
+}
+
+/* about */
+
+/* ==================Employers==================== */
+.section-cards {
+  background: var(--cloud, #f4f4fd);
+}
+.under-section {
+  background: var(--white, #fff);
+}
+/* ===================Employers===================== */
+
+/* footer */
+
+.footer {
+  background: var(--navyblue, #2e2f42);
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+/* ========================PORTFOLIO====================== */
+
+.second-btn {
+  padding: 12px 24px;
+  align-items: flex-start;
+  background: var(--ocean, #404bbf);
+}
+
+.site-nav-portfolio {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.nav:hover,
+.nav:focus {
+  color: #ffffff;
+  background: var(--ocean, #404bbf);
+}
