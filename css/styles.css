@@ -180,3 +180,20 @@
   color: #ffffff;
   background: var(--ocean, #404bbf);
 }
+
+.content-card {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.content-subtitle {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
