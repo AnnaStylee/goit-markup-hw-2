@@ -39,7 +39,7 @@
 }
 
 .subtitle {
-  color: var(--navyblue, #2e2f42);
+  color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -95,33 +95,34 @@
 
 /* ========================HERO===================== */
 
-.main-title {
+.hero-title {
   color: var(--white, #fff);
+  background: #2e2f42;
   text-align: center;
   font-size: 56px;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  background: var(--navyblue, #2e2f42);
 }
 
-/* ========================HERO====================== */
-
-.modal-btn {
+.hero-btn {
   color: var(--white, #fff);
+  background: var(--iris, #4d5ae5);
   font-size: 16px;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  background: var(--iris, #4d5ae5);
   cursor: pointer;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background: var(--ocean, #404bbf);
 }
+
+/* ========================HERO====================== */
 
 /* about */
 
@@ -129,7 +130,7 @@
 .section-cards {
   background: var(--cloud, #f4f4fd);
 }
-.under-section {
+.mark-card {
   background: var(--white, #fff);
 }
 
