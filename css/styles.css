@@ -18,10 +18,6 @@
   text-decoration: none;
 }
 
-.last-letters {
-  color: #f4f4fd;
-}
-
 /* ========================COMPONENTS===================== */
 
 .section-description {
@@ -54,6 +50,10 @@
 .logo:hover,
 .logo:focus {
   color: var(--ocean, #404bbf);
+}
+
+.logo-span {
+  color: #2e2f42;
 }
 
 .logo {
@@ -132,9 +132,8 @@
 .under-section {
   background: var(--white, #fff);
 }
-/* ===================Employers===================== */
 
-/* footer */
+/* =================FOOTER================ */
 
 .footer {
   background: var(--navyblue, #2e2f42);
@@ -143,6 +142,10 @@
   font-family: Roboto, sans-serif;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.footer-span {
+  color: #f4f4fd;
 }
 /* ========================PORTFOLIO====================== */
 
