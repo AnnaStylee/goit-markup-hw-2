@@ -1,10 +1,11 @@
 :root {
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
+  --body-text-color: ##434455;
 }
 
 .body {
-  color: var(--navyblue, #2e2f42);
+  color: var(--body-text-color);
   font-family: Roboto, sans-serif;
   background: #fff;
 }
@@ -18,7 +19,7 @@
 }
 
 .last-letters {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 
 /* ========================COMPONENTS===================== */
