@@ -2,23 +2,19 @@
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 
-  --hero-text-color:  #fff;
-  --hero-theme-dark: #2E2F42;
+  --hero-text-color: #fff;
+  --hero-theme-dark: #2e2f42;
 
-  --body-text-color-dark: #2e2f42
-  --body-text-color-light: #434455
-  --body-theme-light: #fff;
-  
   --foter-text-color: #f4f4fd;
   --foter-theme-dark: #2e2f42;
   --accent-color: #404bbf;
 }
 
-
 .body {
   color: var(--body-text-color-light);
   font-family: Roboto, sans-serif;
   background-color: var(--body-theme-light);
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -162,10 +158,10 @@
 }
 /* ========================PORTFOLIO====================== */
 
-
 .btn-filter {
   color: var(--iris, #4d5ae5);
   background: var(--cloud, #f4f4fd);
+  font-family: Roboto, sans-serif;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -180,12 +176,6 @@
   background: var(--accent-color, #404bbf);
 }
 
-
-
-
-
-
-
 .content-card {
   color: var(--body-text-color-dark);
   font-size: 20px;
@@ -195,7 +185,7 @@
 }
 
 .content-subtitle {
-  color: var( --body-text-color-light);
+  color: var(--body-text-color-light);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
