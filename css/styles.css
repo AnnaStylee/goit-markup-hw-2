@@ -2,12 +2,12 @@
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 
-  --hero-text-color:  #fff;
+  --hero-text-color:  #ffffff;
   --hero-theme-dark: #2E2F42;
 
   --body-text-color-dark: #2e2f42
   --body-text-color-light: #434455
-  --body-theme-light: #fff;
+  --body-theme-light: #ffffff;
   
   --foter-text-color: #f4f4fd;
   --foter-theme-dark: #2e2f42;
@@ -158,7 +158,6 @@
 .footer-span {
   color: #f4f4fd;
 }
-
 /* ========================PORTFOLIO====================== */
 
 
