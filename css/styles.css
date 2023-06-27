@@ -16,7 +16,7 @@
 .body {
   color: var(--body-text-color);
   font-family: Roboto, sans-serif;
-  background: #fff;
+  background-color: #fff;
 }
 
 .list {
