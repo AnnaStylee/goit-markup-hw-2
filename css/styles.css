@@ -1,11 +1,14 @@
 :root {
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
+
   --hero-text-color:  #fff;
   --hero-theme-dark: #2E2F42;
+
   --body-text-color-dark: #2e2f42
   --body-text-color-light: #434455
   --body-theme-light: #fff;
+  
   --foter-text-color: #f4f4fd;
   --foter-theme-dark: #2e2f42;
   --accent-color: #404bbf;
@@ -159,16 +162,7 @@
 }
 /* ========================PORTFOLIO====================== */
 
-.btn-active {
-  color: var(--white, #fff);
-  background: var(--ocean, #404bbf);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  cursor: pointer;
-}
+
 
 .btn-filter {
   color: var(--iris, #4d5ae5);
@@ -186,6 +180,10 @@
   color: #ffffff;
   background: var(--accent-color, #404bbf);
 }
+
+
+
+
 
 
 
