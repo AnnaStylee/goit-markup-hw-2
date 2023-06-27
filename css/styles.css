@@ -2,18 +2,17 @@
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 
-  --hero-text-color:  #ffffff;
-  --hero-theme-dark: #2E2F42;
+  --hero-text-color: #ffffff;
+  --hero-theme-dark: #2e2f42;
 
-  --body-text-color-dark: #2e2f42
-  --body-text-color-light: #434455
+  --body-text-color-dark: #2e2f42;
+  --body-text-color-light: #434455;
   --body-theme-light: #ffffff;
-  
+
   --foter-text-color: #f4f4fd;
   --foter-theme-dark: #2e2f42;
   --accent-color: #404bbf;
 }
-
 
 .body {
   color: var(--body-text-color-light);
@@ -120,6 +119,7 @@
 .hero-btn {
   color: var(--white, #fff);
   background: var(--iris, #4d5ae5);
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -159,7 +159,6 @@
   color: #f4f4fd;
 }
 /* ========================PORTFOLIO====================== */
-
 
 .btn-filter {
   color: var(--iris, #4d5ae5);
