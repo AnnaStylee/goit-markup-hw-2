@@ -30,7 +30,7 @@
 /* ========================COMPONENTS===================== */
 
 .section-description {
-  color: var(--navyblue, #2e2f42);
+  color: var(--body-text-color-dark);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -40,7 +40,7 @@
 }
 
 .description-title {
-  color: var(--navyblue, #2e2f42);
+  color: var(--body-text-color-dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -48,7 +48,7 @@
 }
 
 .subtitle {
-  color: var(--slate, #434455);
+  color: var(--body-text-color-light);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -105,8 +105,8 @@
 /* ========================HERO===================== */
 
 .hero-title {
-  color: var(--white, #fff);
-  background: var(--navyblue, #2e2f42);
+  color: var(--hero-text-color);
+  background: var(--hero-theme-dark);
   text-align: center;
   font-size: 56px;
   font-family: Roboto, sans-serif;
@@ -147,8 +147,8 @@
 /* =================FOOTER================ */
 
 .footer-logo {
-  background: var(--navyblue, #2e2f42);
-  color: var(--cloud, #f4f4fd);
+  background: var(--foter-theme-dark);
+  color: var(--foter-text-color);
   font-size: 16px;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
