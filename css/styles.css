@@ -2,8 +2,16 @@
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
   --body-text-color: #434455;
+  --hero-text-color:  #fff;
+  --hero-theme-dark: #f4f4fd;
+  --body-text-color-dark: #2e2f42
+  --body-text-color-light: #434455
+  --body-theme-light: #fff;
+  --foter-text-color: #f4f4fd;
+  --foter-theme-dark: #2e2f42;
   --accent-color: #404bbf;
 }
+
 
 .body {
   color: var(--body-text-color);
