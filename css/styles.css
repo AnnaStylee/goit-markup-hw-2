@@ -2,6 +2,7 @@
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
   --body-text-color: #434455;
+  --accent-color: #404bbf;
 }
 
 .body {
@@ -49,7 +50,7 @@
 
 .logo:hover,
 .logo:focus {
-  color: var(--ocean, #404bbf);
+  color: var(--accent-color, #404bbf);
 }
 
 .logo-span {
@@ -76,7 +77,7 @@
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--accent-color, #404bbf);
 }
 
 .contacts {
@@ -89,7 +90,7 @@
 
 .contacts:hover,
 .contacts:focus {
-  color: #404bbf;
+  color: var(--accent-color, #404bbf);
   font-style: normal;
 }
 
@@ -119,7 +120,7 @@
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: var(--ocean, #404bbf);
+  background: var(--accent-color, #404bbf);
 }
 
 /* ========================HERO====================== */
@@ -131,7 +132,7 @@
 .section-team {
   background: var(--cloud, #f4f4fd);
 }
-.section-team .card {
+.card-team {
   background: var(--white, #fff);
 }
 
@@ -178,7 +179,7 @@
 .btn-filter:hover,
 .btn-filter:focus {
   color: #ffffff;
-  background: var(--ocean, #404bbf);
+  background: var(--accent-color, #404bbf);
 }
 
 .content-card {
