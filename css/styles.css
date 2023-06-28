@@ -9,8 +9,8 @@
   --body-text-color-light: #434455;
   --body-theme-light: #ffffff;
 
-  --foter-text-color: #f4f4fd;
-  --foter-theme-dark: #2e2f42;
+  --footer-text-color: #f4f4fd;
+  --footer-theme-dark: #2e2f42;
   --accent-color: #404bbf;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .hero-btn {
-  color: var(--white, #fff);
+  color: var(--white, #ffffff);
   background: var(--iris, #4d5ae5);
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -142,14 +142,14 @@
   background: var(--cloud, #f4f4fd);
 }
 .card-team {
-  background: var(--white, #fff);
+  background: var(--white, #ffffff);
 }
 
 /* =================FOOTER================ */
 
 .footer-logo {
-  background: var(--foter-theme-dark);
-  color: var(--foter-text-color);
+  background: var(--footer-theme-dark);
+  color: var(--footer-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
