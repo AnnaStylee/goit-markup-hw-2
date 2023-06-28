@@ -156,7 +156,8 @@
 }
 
 .footer-subtitle {
-  color: var(--footer-theme-dark);
+  color: var(--footer-text-color);
+  background: var(--footer-theme-dark);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
