@@ -185,3 +185,41 @@
   color: #ffffff;
   background: var(--accent-color, #404bbf);
 }
+
+/* ===============RESET-START============= */
+
+body {
+  font-family: ;
+  color: ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: ;
+}
+
+img {
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
